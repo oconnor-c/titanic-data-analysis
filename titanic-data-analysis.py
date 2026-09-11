@@ -8,7 +8,7 @@ print(df.head())
 #打印数据的前五行
 
 df=df.drop('Cabin',axis=1)
-#删除点Cabin这一行
+#删除点Cabin这一列
 
 df['Age'] = df['Age'].fillna(df['Age'].median())
 #用中位数来填充缺失的年龄
