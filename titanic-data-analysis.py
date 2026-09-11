@@ -53,7 +53,7 @@ plt.xlabel('Passenger Class')
 plt.ylabel('Survival Rate')
 plt.ylim(0, 1)
 plt.tight_layout()
-plt.savefig('fig1_survival_by_Pclass.png', dpi=300, bbox_inches='tight')
+plt.savefig('fig2_survival_by_class.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 
