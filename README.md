@@ -17,3 +17,8 @@ Kaggle Titanic: https://www.kaggle.com/c/titanic
 ## 运行方式
 pip install -r requirements.txt
 python titanic_analysis.py
+
+## 主要结果
+- 整体存活率约 38.4%
+- 女性存活率 74.2%，男性 18.9%，差异显著
+- 舱位越高存活率越高：1 等 63.0%，2 等 47.3%，3 等 24.2%
