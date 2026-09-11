@@ -42,7 +42,7 @@ plt.ylim(0, 1)
 plt.tight_layout()
 plt.savefig('fig1_survival_by_sex.png', dpi=300, bbox_inches='tight')
 plt.show()
-plt.show()
+
 
 # 船舱生存率柱状图
 class_rate = df.groupby('Pclass')['Survived'].mean()
@@ -55,7 +55,7 @@ plt.ylim(0, 1)
 plt.tight_layout()
 plt.savefig('fig1_survival_by_Pclass.png', dpi=300, bbox_inches='tight')
 plt.show()
-plt.show()
+
 
 # 年龄分布直方图
 plt.figure(figsize=(8, 5))
@@ -66,5 +66,5 @@ plt.ylabel('Count')
 plt.tight_layout()
 plt.savefig('fig3_age_distribution.png', dpi=300, bbox_inches='tight')
 plt.show()
-plt.show()
+
 
