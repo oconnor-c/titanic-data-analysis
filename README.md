@@ -16,7 +16,7 @@ Kaggle Titanic: https://www.kaggle.com/c/titanic
 
 ## 运行方式
 pip install -r requirements.txt
-python titanic_analysis.py
+python titanic-data-analysis.py
 
 ## 主要结果
 - 整体存活率约 38.4%
